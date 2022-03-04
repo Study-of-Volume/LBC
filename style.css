@@ -467,7 +467,7 @@ div label[for=ui-component-toggle__yearly] {
 }
 
 .ui-section-customer--logo {
-  height: 1.5rem;
+  height: 4.5rem;
   width: auto;
 }
 
@@ -976,7 +976,7 @@ div label[for=ui-component-toggle__yearly] {
   |
   ------------------------------------------------------------*/
 
-  .ui-section-customer--logo { height: auto; }
+  .ui-section-customer--logo { height: 4rem; }
   
   .ui-section-customer--logo-str { height: 2.25rem; }
   
