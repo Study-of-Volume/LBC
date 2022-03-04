@@ -26,6 +26,20 @@
     <link rel="stylesheet" href="style.css">
     <!-- TITLE -->
     <title>FX出来高研究会</title>
+    <!-- SLIDER -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+    <script type="text/javascript">
+        $(document).ready(function(){
+            $('.slider').bxSlider({
+                auto: true,
+                pause: 5000,
+            });
+        });
+    </script>
+
   </head>
   <body>
     <header role="banner" class="ui-section-header">
@@ -64,7 +78,12 @@
               </div>
             </div>
             <!-- IMAGE -->
-            <img src="https://www.lightbluecid.com/sliderimages/slide-1.png" loading="lazy" alt="LBC" class="ui-image-half-right">
+            <div class="slider">
+		<img src="https://www.lightbluecid.com/sliderimages/slide-1.png" alt="">
+		<img src="https://www.lightbluecid.com/sliderimages/slide-2.png" alt="">
+		<img src="https://www.lightbluecid.com/sliderimages/slide-3.png" alt="">
+		<img src="https://www.lightbluecid.com/sliderimages/slide-4.png" alt="">
+	    </div>
           </div>
         </div>
       </section>
